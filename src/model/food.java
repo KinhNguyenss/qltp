@@ -1,5 +1,7 @@
 package model;
+
 public class food {
+
     private String maTP;
     private String tenTP;
     private String sl;
@@ -72,5 +74,5 @@ public class food {
     public String toString() {
         return "food{" + "maTP=" + maTP + ", tenTP=" + tenTP + ", sl=" + sl + ", giatien=" + giatien + ", donViTinh=" + donViTinh + ", moTa=" + moTa + '}';
     }
-    
+
 }

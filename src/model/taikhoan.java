@@ -1,5 +1,7 @@
 package model;
+
 public class taikhoan {
+
     private String taikhoan;
     private String matkhau;
 
@@ -25,12 +27,12 @@ public class taikhoan {
     }
 
     public taikhoan() {
-        super ();
+        super();
     }
 
     @Override
     public String toString() {
         return "taikhoan{" + "taikhoan=" + taikhoan + ", matkhau=" + matkhau + '}';
     }
-    
+
 }

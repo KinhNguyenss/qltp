@@ -1,9 +1,12 @@
 package DAO;
+
 import connect.connectDb;
 import model.taikhoan;
 import java.sql.*;
+
 public class taikhoanDAO {
-      public static boolean checkLogin(taikhoan account) {
+
+    public static boolean checkLogin(taikhoan account) {
 
         try {
             String sql = "select * from taikhoan where Username=? and Password= ?";

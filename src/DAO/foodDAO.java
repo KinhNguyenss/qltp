@@ -80,7 +80,7 @@ public class foodDAO {
 
     public static ArrayList<food> timkiem(String condition) {
         ArrayList<food> ds = new ArrayList<>();
-        String sql = "select * from thucpham where mathucpham = '"+ condition +"'";
+        String sql = "select * from thucpham where mathucpham = '" + condition + "'";
         try {
             Connection con = connectDb.getConnect();
             PreparedStatement pst = con.prepareStatement(sql);
